@@ -30,15 +30,19 @@ print("**** Sets ****");
 // print(mySet.size)
 
 // Convert set to array
-// const myArray: number[] = Array.from(mySet);
+const myArray: number[] = Array.from(mySet);
 
 // myArray.forEach(v => print(v))
+
+// for (let v of mySet)
+// print(v)
 
 // Create set from array
 // const backToSet: Set<number> = new Set(myArray)
 
 // Remove duplicates from an array
 // const noDuplicates = [...new Set(myArray)]
+// console.log(myArray)
 
 /**
  * MAP
@@ -50,11 +54,16 @@ const myMap: Map<string, string> = new Map([
   ["anotherKey", "anotherValue"]
 ]);
 
-const a = myMap.get("anotherKey");
-console.log(a);
+const a = myMap.get("anotherKey"); // no dot-notation
+// console.log(a);
 // print(a);
+
 // print(myMap.size);
+
 // myMap.forEach(v => print(v));
+
+// for (let v of myMap)
+//   print(v)
 
 // const randoMap: Map<any, any> = new Map([[1, 2]]);
 

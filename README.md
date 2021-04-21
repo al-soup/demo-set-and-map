@@ -27,4 +27,4 @@ Maps are key-value pairs, similar to objects. Key difference: **insertion of key
 Maps are iterable. Unlike objects they are only used for data storage.
 
 ### Remember
-- Focus on insertion order, or non-string keys or easy data access
+- Focus on insertion order, non-string keys or easy data access

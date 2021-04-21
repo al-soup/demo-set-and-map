@@ -7,7 +7,7 @@ Sets are similar to arrays. Key difference: Sets **don't contain duplicates** an
 
 Sets are iterable, so the `forEach` or `for-of` loop can be used on them.
 
-Delition and finding is more trivial and faster than in arrays (because there is no positioning/order).
+Deleting and finding is more trivial and faster than in arrays (because there is no positioning/order).
 
 [Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
 

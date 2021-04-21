@@ -1,6 +1,6 @@
 # Demo: Set & Map in JS
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/typescript-urmfwc)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/demo-set-and-map)
 
 ## Sets
 Sets are similar to arrays. Key difference: Sets **don't contain duplicates** and the **insertion order is not remembered**.

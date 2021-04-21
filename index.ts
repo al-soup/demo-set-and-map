@@ -24,30 +24,27 @@ mySet.add(4);
 mySet.delete(1);
 
 print("**** Sets ****");
-// mySet.forEach(v => print(v));
+mySet.forEach(v => print(v));
 
-// print(`Does set contain the number 2? - ${mySet.has(2)}`)
-// print(mySet.size)
+print(`Does set contain the number 2? - ${mySet.has(2)}`);
+print(`Set size: ${mySet.size}`);
 
 // Convert set to array
 const myArray: number[] = Array.from(mySet);
 
-// myArray.forEach(v => print(v))
-
-// for (let v of mySet)
-// print(v)
+myArray.forEach(v => print(v));
 
 // Create set from array
-// const backToSet: Set<number> = new Set(myArray)
+const backToSet: Set<number> = new Set(myArray);
 
 // Remove duplicates from an array
-// const noDuplicates = [...new Set(myArray)]
+const noDuplicates = [...new Set(myArray)];
 // console.log(myArray)
 
 /**
  * MAP
  */
-// print("**** Maps ****");
+print("**** Maps ****");
 
 const myMap: Map<string, string> = new Map([
   ["key", "value"],
@@ -56,19 +53,19 @@ const myMap: Map<string, string> = new Map([
 
 const a = myMap.get("anotherKey"); // no dot-notation
 // console.log(a);
-// print(a);
+print(a);
 
-// print(myMap.size);
+print(`Map size: ${myMap.size}`);
 
-// myMap.forEach(v => print(v));
+myMap.forEach(v => print(v));
 
 // for (let v of myMap)
 //   print(v)
 
-// const randoMap: Map<any, any> = new Map([[1, 2]]);
+const randoMap: Map<any, any> = new Map([[1, 2]]);
 
-// const obj = { name: "Luise" };
-// randoMap.set(obj, "obj");
-// randoMap.set(obj, "hey");
+const obj = { name: "Luise" };
+randoMap.set(obj, "value");
+randoMap.set(obj, "anotherValue");
 
 // randoMap.forEach(v => print(v));

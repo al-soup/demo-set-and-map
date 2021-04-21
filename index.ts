@@ -27,32 +27,39 @@ print("**** Sets ****");
 // mySet.forEach(v => print(v));
 
 // print(`Does set contain the number 2? - ${mySet.has(2)}`)
+// print(mySet.size)
 
 // Convert set to array
 // const myArray: number[] = Array.from(mySet);
-const myArray: number[] = [...mySet]
+
 // myArray.forEach(v => print(v))
 
 // Create set from array
-const backToSet: Set<number> = new Set(myArray)
+// const backToSet: Set<number> = new Set(myArray)
 
 // Remove duplicates from an array
-const noDuplicates = [...new Set([1,2, 3])]
-
-
+// const noDuplicates = [...new Set(myArray)]
 
 /**
  * MAP
  */
 // print("**** Maps ****");
 
-// const myMap: Map<string, string> = new Map([
-//   ["key", "value"],
-//   ["anotherKey", "anotherValue"]
-// ]);
+const myMap: Map<string, string> = new Map([
+  ["key", "value"],
+  ["anotherKey", "anotherValue"]
+]);
 
-// const a = myMap.get("anotherKey");
+const a = myMap.get("anotherKey");
+console.log(a);
 // print(a);
+// print(myMap.size);
 // myMap.forEach(v => print(v));
 
-// print(myMap.size);
+// const randoMap: Map<any, any> = new Map([[1, 2]]);
+
+// const obj = { name: "Luise" };
+// randoMap.set(obj, "obj");
+// randoMap.set(obj, "hey");
+
+// randoMap.forEach(v => print(v));
